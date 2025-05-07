@@ -10,6 +10,8 @@ public class Main {
         List<Persona> mercado = FileManager.cargarMercado();
         List<Equipo> equipos = FileManager.cargarEquipos();
 
+System.out.println("Hola mundo");
+
         // Mostrar estadísticas iniciales
         System.out.println("\n=== Football Manager ===");
         System.out.printf("Equipos cargados: %d%n", equipos.size());
